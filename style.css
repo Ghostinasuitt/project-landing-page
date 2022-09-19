@@ -142,10 +142,37 @@ button {
   color: #65676a;
 }
 
-.thor {
+.quotebox {
   display: flex;
-  flex-direction: column;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
   background-color: #e5e7eb;
   min-width: 100vw;
   min-height: 400px;
+  margin: 80px 0;
+}
+
+.quotes {
+  display: flex;
+  flex-flow: row wrap;
+  width: 800px;
+  justify-content: flex-end;
+}
+
+.quote {
+  display: flex;
+  justify-content: center;
+  width: 800px;
+  height: 200px;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.customer {
+  display: flex;
+  flex-direction: row;
+  font-size: 24px;
+  font-weight: 700;
 }
