@@ -128,7 +128,7 @@ button {
 
 .square {
   border: #3882f6 solid 4px;
-  border-radius: 8px;
+  border-radius: 20px;
   height: 150px;
   width: 150px;
 }
