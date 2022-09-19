@@ -1,3 +1,7 @@
+* {
+  border: firebrick solid 2px;
+}
+
 body {
   font-family: roboto, "Open Sans";
   margin: 0;
@@ -120,11 +124,14 @@ button {
 
 .box {
   display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  width: 250px;
 }
 
 .square {
-  border: #3882f6 solid 2px;
+  border: #3882f6 solid 4px;
   border-radius: 8px;
-  height: 100px;
-  width: 100px;
+  height: 125px;
+  width: 125px;
 }
