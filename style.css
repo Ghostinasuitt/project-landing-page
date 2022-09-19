@@ -141,3 +141,11 @@ button {
   text-align: center;
   color: #65676a;
 }
+
+.thor {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+  min-width: 100vw;
+  min-height: 400px;
+}
