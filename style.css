@@ -176,3 +176,35 @@ button {
   font-size: 24px;
   font-weight: 700;
 }
+
+.bar-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 60px;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 1000px;
+  height: 130px;
+  border-radius: 8px;
+  background: #3882f6;
+}
+.edge {
+  display: flex;
+  border: #f9faf8 solid 2px;
+  align-self: center;
+}
+
+.action {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+.click {
+  color: #e5e7eb;
+}
